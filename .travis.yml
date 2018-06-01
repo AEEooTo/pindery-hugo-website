@@ -1,0 +1,31 @@
+env:
+  global:
+  - USER="AEEooTO"
+  - EMAIL="deploy@travis-ci.org"
+  - DEPLOYMENT_USER="traviscibot"
+  - REPO="pindery"
+  - BRANCH="gh-pages"
+  - DOC_FILES="./doc/api/*"
+  - GH_REPO="github.com/${USER}/${REPO}.git"
+
+install:
+    - wget https://github.com/gohugoio/hugo/releases/download/v0.41/hugo_0.41_Linux-64bit.deb
+    - sudo dpkg -i hugo*.deb
+    - pip install Pygments
+
+script:
+    - hugo -s ./
+
+after_success:
+  - MESSAGE='Commit with Travis CI'
+  - git clone git://${GH_REPO}
+  - cd ${REPO}
+  - rm -rf `ls | grep -v 'md$' | grep -v '.git' | grep -v 'CNAME'`
+  - cp -f -r ../${FILES} ./
+  - ls
+  - git remote
+  - git config user.email ${EMAIL}
+  - git config user.name ${DEPLOYMENT_USER}
+  - git add .
+  - git commit -m 'Commit with Travis CI'
+  - git push "https://${GITHUB_TOKEN}@${GH_REPO}" ${BRANCH}
