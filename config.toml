@@ -59,7 +59,7 @@ theme = 'elate'
     description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
     url = "#"
     button = "Download Pindery!"
-    icon = "icon-wrench"
+    icon = "icon-people"
     img = "img_8.jpg"
 
   [[params.intro.item]]
@@ -176,10 +176,10 @@ theme = 'elate'
   [params.about]
     enable = true
     title = "About"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+    description = "AEEooTo: Anna, Edoardo, Edoardo (in Torino). A great project team. Meet us!"
 
     [[params.about.item]]
-      name = "Jean Smith"
+      name = "Anna Tranquillini"
       position = "Web Designer"
       description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
       img = "person1.jpg"
@@ -191,19 +191,21 @@ theme = 'elate'
       ]
 
     [[params.about.item]]
-      name = "Rob Smith"
-      position = "Web Developer"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
-      img = "person2.jpg"
-      alt = "Person2"
+      name = "Edoardo Debenedetti"
+      position = "Flutter developer"
+      description = "Computer Engineering student @ PoliTo, exchanging @ Tongji University in Shanghai | IT Consultant & PM @ J.E.To.P."
+      img = "/about/edoardo-debenedetti.jpg"
+      alt = "Edoardo Debenedetti"
       social = [
-        ["icon-twitter", "#"],
-        ["icon-facebook", "#"],
-        ["icon-github", "#"]
+        ["icon-twitter", "http://twitter.com/edoardo_debe"],
+        ["icon-instagram", "https://www.instagram.com/edoardo.debenedetti/"],
+        ["icon-linkedin", "https://linkedin.com/in/edoardo-debenedetti"],
+        ["icon-compass", "https://edoardodebenedetti.me"],
+        ["icon-github", "https://github.com/dedeswim"]
       ]
 
     [[params.about.item]]
-      name = "Larry Ben"
+      name = "Edoardo Ghignone"
       position = "Web Designer"
       description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
       img = "person3.jpg"
@@ -217,15 +219,15 @@ theme = 'elate'
   # Counters section
   [params.counters]
     enable = true
-    title = "Stats"
+    title = "Some really random cool numbers"
     background = "full_image_1.jpg"
 
     [[params.counters.item]]
       description = "Finished projects"
       icon = "icon-briefcase"
       from = 0
-      to = 89
-      interval = 50
+      to = 1
+      interval = 1
       speed = 5000
 
     [[params.counters.item]]
@@ -240,17 +242,17 @@ theme = 'elate'
       description = "Cups of coffee"
       icon = "icon-cup"
       from = 0
-      to = 1302
-      interval = 50
+      to = 120
+      interval = 40
       speed = 5000
 
     [[params.counters.item]]
-      description = "Happy clients"
+      description = "Organised parties"
       icon = "icon-people"
       from = 0
-      to = 52
-      interval = 50
-      speed = 5000
+      to = 2
+      interval = 1
+      speed = 2500
 
   # Contact section
   [params.contact]
