@@ -3,9 +3,10 @@ languageCode = "en-us"
 title = "Pindery | An amazing party app."
 theme = 'elate'
 
+
 [params]
   
-  custom_css = ["css/custom1.css", "css/custom2.css"]
+  # custom_css = ["css/custom1.css", "css/custom2.css"]
 
   # Meta
   author = "Pindery"
