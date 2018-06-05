@@ -9,7 +9,7 @@ theme = 'elate'
   # custom_css = ["css/custom1.css", "css/custom2.css"]
 
   # Meta
-  author = "Pindery"
+  author = "AEEooTo"
   description = "An amazing party app."
   email = "edoardo.m.debenedetti@gmail.com"
   # Navigation
@@ -39,6 +39,7 @@ theme = 'elate'
   
   # Hero section
   [params.hero]
+    logo = "images/logo.png"
     title = "Join and organise party as never before."
     subtitle = 'Pindery is an Android and iOS based social network designed to join and organise parties. Each user will have the possibility to create a new party or join already existing ones nearby.'
  
@@ -279,9 +280,9 @@ theme = 'elate'
   # Footer section
   [params.footer]
     enable = true
-    copyright = '&copy; Elate Free HTML5. All Rights Reserved. <br>Created by <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> Images: <a href="http://pexels.com/" target="_blank">Pexels</a>, <a href="http://plmd.me/" target="_blank">plmd.me</a> <br>Hugo port by: <a href="https://github.com/saey55" target="_blank">saey55</a>'
-    links = [
-        ["icon-twitter", "#twitter"],
-        ["icon-facebook", "#facebook"],
-        ["icon-youtube", "#youtube"]
-]
+    copyright = '&copy; AEEooTo. All Rights Reserved. <br>Created by us, based on a theme by <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a>, <a href="http://plmd.me/" target="_blank">plmd.me</a> <br>Hugo port by: <a href="https://github.com/saey55" target="_blank">saey55</a>'
+    # links = [
+    #     ["icon-twitter", "#twitter"],
+    #     ["icon-facebook", "#facebook"],
+    #     ["icon-youtube", "#youtube"]
+    # ]
