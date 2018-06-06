@@ -48,8 +48,8 @@ theme = 'elate'
   [params.intro]
 
   [[params.intro.item]]
-    title = "Organise"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+    title = "Organize"
+    description = "Organize great parties without the need of managing money and not worring about contacting people!"
     url = "#"
     button = "Get started!"
     icon = "icon-bulb"
@@ -57,22 +57,22 @@ theme = 'elate'
 
   [[params.intro.item]]
     title = "Join"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+    description = "Tired of saturday nights watching Netflix? Join Pindery to take part to the best parties you ever saw!"
     url = "#"
     button = "Download Pindery!"
     icon = "icon-people"
-    img = "img_8.jpg"
+    img = "img_7.jpg"
 
   [[params.intro.item]]
     title = "Sponsor"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+    description = "Tons of people will see your events and your products while joining or organizing parties. You'll forget those weird sandiwch men!"
     url = "#"
     button = "Why us?"
     icon = "icon-rocket"
-    img = "img_10.jpg"
+    img = "img_7.jpg"
 
   [params.intro.video]
-    enable = false
+    enable = true
     title = "Watch the video"
     icon = "icon-play2"
     url = "https://vimeo.com/channels/staffpicks/93951774"
@@ -151,27 +151,28 @@ theme = 'elate'
   # Services section
   [params.services]
     enable = true
-    title = "Services"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+    title = "What can I do with Pindery?"
+    description = "Ok, gotcha, it seems great, but how does it actually work?"
 
     [[params.services.item]]
-      title = "Brand &amp; Strategy"
+      title = "Find and join parties"
       description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
-      icon = "icon-anchor"
+      icon = "icon-search"
 
     [[params.services.item]]
-      title = "Web &amp; Interface"
+      title = "Organise parties without managing money"
       description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
-      icon = "icon-layers2"
+      icon = "icon-wrench"
+
     [[params.services.item]]
-      title = "Photo &amp; Video"
+      title = "Sponsor your products"
       description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
-      icon = "icon-video2"
+      icon = "icon-beer"
 
       [[params.services.item]]
-      title = "CMS &amp; eCommerce"
+      title = "Promote your venue"
       description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"      
-      icon = "icon-monitor"
+      icon = "icon-bar-graph2"
 
   # About section
   [params.about]
