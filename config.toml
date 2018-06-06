@@ -130,22 +130,22 @@ theme = 'elate'
     description = "What do our users think about Pindery?"
 
     [[params.testimonials.item]]
-      quote = "&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.&rdquo;"
-      person = 'Jean Doe, CEO <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> <span class="subtext">Creative Director</span>'
-      img = "person1.jpg"
-      alt = "Person1"
+      quote = "&ldquo;Finding Pindery was one of the best thing that ever happened to me! Since I use this app, organizing parties has become so easy and inexpensive that I cannot stop creating new events! The only side effect is that I don’t have time to study anymore.&rdquo;"
+      person = 'Jean Doe, student @ Tongji University'
+      img = "/testimonials/jean-doe.jpg"
+      alt = "Jean Doe"
 
     [[params.testimonials.item]]
-      quote = "&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.&rdquo;"
-      person = 'John Doe, Senior UI <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> <span class="subtext">Creative Director</span>'
-      img = "person2.jpg"
-      alt = "Person2"
+      quote = "&ldquo;As a university student Pindery gives me the opportunity to find events close to my dorm that I would have never known of in any other way! Just last week I ended up in a Mexican themed party just 5 minutes from the university. I just had to bring with me a bottle of tequila and some tacos and enjoy the company – Best time ever!&rdquo;"
+      person = 'Mario Rossi, student @ PoliTo'
+      img = "/testimonials/mario-rossi.jpg"
+      alt = "Mario Rossi"
 
     [[params.testimonials.item]]
-      quote = "&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. &rdquo;"
-      person = 'Chris Nash, Director <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> <span class="subtext">Creative Director</span>'
-      img = "person3.jpg"
-      alt = "Person3"
+      quote = "&ldquo;As a bar owner finding a good way to advertise without having to hand out fliers around the city was becoming a real struggle! Since I use Pindery I see week by week an increasing flow of young costumers coming to my pub, I just love the whole AEEooTo team for building up such a great platform.&rdquo;"
+      person = '李先生, owner of Shanghai Pub'
+      img = "/testimonials/li-xian-sheng.jpg"
+      alt = "李先生"
     
 
 
@@ -202,7 +202,7 @@ theme = 'elate'
       social = [
         ["icon-twitter", "http://twitter.com/edoardo_debe"],
         ["icon-linkedin", "https://linkedin.com/in/edoardo-debenedetti"],
-        ["icon-compass", "https://edoardodebenedetti.me"],
+        ["icon-globe", "https://edoardodebenedetti.me"],
         ["icon-github", "https://github.com/dedeswim"]
       ]
 
@@ -239,6 +239,7 @@ theme = 'elate'
       to = 191855
       interval = 50
       speed = 5000
+      plus = true
 
     [[params.counters.item]]
       description = "Cups of coffee"
@@ -262,11 +263,11 @@ theme = 'elate'
     map = false
     form = true
     title = "Get in touch"
-    description = "Do you have any kind of questions about Pindery? Let us know!"
+    description = "Do you have any kind of question about Pindery? Let us know!"
     
     # Available icons: http://simplelineicons.com/
     details = [
-        # ["icon-home", "5555 Love Paradise 56 New Clity 5655, <br> Excel Tower United Kingdom"],
+        ["icon-home", "**Tongji University**, Jiading Campus, SH, China. <br>**Politecnico di Torino**, Torino, Italy."],
         # ["icon-phone", "(123) 465-6789"],
         # ["icon-envelope", "info@freehtml5.co"],
         # ["icon-globe", '<a href="http://freehtml5.co/" target="_blank">freehtml5.co</a>']
