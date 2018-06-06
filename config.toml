@@ -178,7 +178,8 @@ theme = 'elate'
   [params.about]
     enable = true
     title = "About"
-    description = "AEEooTo: Anna, Edoardo, Edoardo (in Torino). A great project team. Meet us!"
+    description = "**AEEooTo**: **A**nna, **E**doardo, **E**doardo (in **To**rino). A great project team. Meet us!"
+    subdescription = "Yes, the central **'o'**s make no sense. We put them just because it sound like *aiuto*, which means *help*, in Italian. Don't worry, it's ironic."
 
     [[params.about.item]]
       name = "Anna Tranquillini"
