@@ -16,6 +16,7 @@ theme = 'elate'
   [params.navigation]
     brand = "Pindery"
     home = "Home"
+    intro = "Download"
     # work = "Work"
     testimonials = "Testimonials"
     services = "Features"
@@ -46,6 +47,7 @@ theme = 'elate'
   # Intro section
   # Available icons: http://simplelineicons.com/
   [params.intro]
+    enable = true
 
   [[params.intro.item]]
     title = "Organize"
@@ -183,14 +185,12 @@ theme = 'elate'
 
     [[params.about.item]]
       name = "Anna Tranquillini"
-      position = "Web Designer"
+      position = "Flutter developer"
       description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
-      img = "person1.jpg"
+      img = "/about/anna-tranquillini.jpg"
       alt = "Person1"
       social = [
-        ["icon-twitter", "#"],
-        ["icon-facebook", "#"],
-        ["icon-linkedin", "#"]
+        ["icon-github", "https://github.com/annatranquillini"]
       ]
 
     [[params.about.item]]
@@ -201,7 +201,6 @@ theme = 'elate'
       alt = "Edoardo Debenedetti"
       social = [
         ["icon-twitter", "http://twitter.com/edoardo_debe"],
-        ["icon-instagram", "https://www.instagram.com/edoardo.debenedetti/"],
         ["icon-linkedin", "https://linkedin.com/in/edoardo-debenedetti"],
         ["icon-compass", "https://edoardodebenedetti.me"],
         ["icon-github", "https://github.com/dedeswim"]
@@ -209,14 +208,14 @@ theme = 'elate'
 
     [[params.about.item]]
       name = "Edoardo Ghignone"
-      position = "Web Designer"
+      position = "Flutter developer"
       description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
-      img = "person3.jpg"
+      img = "/about/edoardo-ghignone.jpg"
       alt = "Person3"
       social = [
-        ["icon-twitter", "#"],
-        ["icon-facebook", "#"],
-        ["icon-dribbble", "#"]
+        ["icon-twitter", "http://twitter.com/gnone42"],
+        ["icon-linkedin", "https://linkedin.com/in/edoardo-ghignone-355b43149/"],
+        ["icon-github", "https://github.com/stephanNorsten"]
       ]      
 
   # Counters section
@@ -228,13 +227,13 @@ theme = 'elate'
     [[params.counters.item]]
       description = "Finished projects"
       icon = "icon-briefcase"
-      from = 0
-      to = 1
-      interval = 1
+      from = 0.5
+      to = 0.5
+      interval = 0.1
       speed = 5000
 
     [[params.counters.item]]
-      description = "Lines of code (that's real!)"
+      description = "Lines of code (no, that one is not random)"
       icon = "icon-code"
       from = 0
       to = 191855
@@ -252,7 +251,7 @@ theme = 'elate'
     [[params.counters.item]]
       description = "Organised parties"
       icon = "icon-people"
-      from = 0
+      from = 2
       to = 2
       interval = 1
       speed = 5000
@@ -282,7 +281,7 @@ theme = 'elate'
   # Footer section
   [params.footer]
     enable = true
-    copyright = '&copy; AEEooTo. All Rights Reserved. <br>Created by us, based on a theme by <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a>, <a href="http://plmd.me/" target="_blank">plmd.me</a> <br>Hugo port by: <a href="https://github.com/saey55" target="_blank">saey55</a>'
+    copyright = '&copy; AEEooTo. All Rights Reserved. <br>Created by us, based on a theme by [FREEHTML5.co](http://freehtml5.co/).<br>Hugo port by: <a href="https://github.com/saey55" target="_blank">saey55</a>. Kindly hosted by [GitHub](https://github.com).'
     # links = [
     #     ["icon-twitter", "#twitter"],
     #     ["icon-facebook", "#facebook"],
