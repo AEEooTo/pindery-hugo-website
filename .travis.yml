@@ -9,14 +9,15 @@ env:
   - BRANCH="gh-pages"
   - FILES="./public/*"
   - GH_REPO="github.com/${USER}/${REPO}.git"
+  - HUGO_URL="https://github.com/gohugoio/hugo/releases/download/v0.41/hugo_0.41_Linux-64bit.deb"
 
 install:
-    - wget https://github.com/gohugoio/hugo/releases/download/v0.41/hugo_0.41_Linux-64bit.deb
-    - sudo dpkg -i hugo*.deb
+    - wget ${HUGO_URL} # Download Hugo package
+    - sudo dpkg -i hugo*.deb # Install Hugo
     - pip install Pygments
 
 script:
-    - hugo -s ./
+    - hugo -s ./ # Generate the website
 
 after_success:
   - git clone git://${GH_REPO}

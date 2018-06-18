@@ -1,0 +1,6 @@
+# IDEs folders
+.vscode/
+.idea/
+
+# Hugo folders
+public/
